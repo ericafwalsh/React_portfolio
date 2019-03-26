@@ -1,0 +1,147 @@
+/* Universal Formatting */
+
+h2, .portfoliolabel {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+footer, body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("../images/dynamic-style.png");
+    margin: 0 0 50px 0;
+    height: 100%;
+}
+
+p {
+    color: #777777;
+    line-height: 25px;
+}
+
+hr { 
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    color: #dddddd;
+}
+
+ footer {
+    background-color: #666666;
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    border-top: 8px solid #4aaaa5;
+    line-height: 60px;
+}
+
+/* About Me Specific Styling */
+
+#aboutcontent {
+    max-width: 960px;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+}
+
+#abouttext {
+    padding: 20px;
+}
+
+#myimage {
+     float:left;
+     margin-right: 20px;
+     margin-bottom: 20px;
+}
+
+/* Portfolio Specific Styling */
+
+#portfoliocontent {
+    max-width: 960px;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    height: 850px;
+}
+
+#portfoliotext {
+    padding: 20px;
+}
+
+.portfolioimage {
+    position: relative;
+    float: left;
+    padding: 20px;
+}
+
+.portfoliolabel {
+    background-color: #4aaaa5;
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 275px;
+    font-size: 18px;
+}
+
+/* Contact Specific Styling */
+
+#contactcontent {
+    max-width: 960px;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contacttext {
+    padding: 20px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 15%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  
+#contactform {
+    border-radius: 5px;
+    padding: 20px;
+    color: #777777;
+}
+
+#message {
+      height: 200px;
+}
