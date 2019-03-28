@@ -45,6 +45,13 @@ hr {
     line-height: 60px;
 }
 
+/* Responsive Image */
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 /* About Me Specific Styling */
 
 #aboutcontent {
@@ -134,8 +141,7 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-  
-  
+
 #contactform {
     border-radius: 5px;
     padding: 20px;
