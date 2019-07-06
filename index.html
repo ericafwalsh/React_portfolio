@@ -8,9 +8,15 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </head>
 
@@ -29,9 +35,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <!-- Removing Contact Page -->
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
-            </li>
+            </li> -->
         </ul>
     </div>
 </nav>
@@ -39,11 +46,83 @@
 
 
 <body>
+    <!-- Bootstrap Card -->
 
-    <div id="aboutcontent" class="container">
+    <div class="container" id="aboutcontent">
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./assets/images/5C0A9698_pp.JPG" class="card-img" alt="erica_walsh" id="ericafwalsh">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">About Me</h5>
+                                <p class="card-text">
+                                    <p>Welcome to my portfolio site. Please navigate to my portfolio page to check out a
+                                        few examples of
+                                        my projects.
+                                        I've included links to my LinkedIn page, and Github page below, as well.
+                                    </p>
+
+                                    <p>To tell you a bit about myself, I have an education in biology, and went on to
+                                        get my Master's
+                                        degree at Columbia, specifically studying
+                                        bat ecology. After spending some time learning how to run a business at a
+                                        science-education
+                                        startup, I pivoted
+                                        and joined a fast moving eCommerce startup, which was quickly acquired by one of
+                                        the largest
+                                        retailers in our nation.
+                                        There, as a buyer, I had a front-row seat to the competitive retail tech
+                                        industry, which sparked
+                                        my desire to become a web developer.
+                                    </p>
+                                    <p>
+                                        This unique mix of education and professional experience has given me the
+                                        ability to think
+                                        critically and approach complex problems
+                                        from a variety of angles, while keeping the customer top of mind.
+                                    </p>
+
+                                    <p>I hope you enjoy my portfolio, and I
+                                        welcome any feedback you have.</p>
+                                </p>
+                                        <ul>
+                                            <li>
+                                                <a href="portfolio.html">Projects</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/in/erica-f-walsh/">LinkedIn
+                                                    Profile</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://github.com/ericafwalsh">Github Account</a>
+                                            </li>
+                                        </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Old Card -->
+    <!-- <div id="aboutcontent" class="container">
         <div id="abouttext">
-            <div class="row">
-                <div class="col-md-12">
+            <div class="row"> -->
+
+
+
+
+    <!-- <div class="col-md-12">
                     <h2>About Me</h2>
                 </div>
             </div>
@@ -56,33 +135,50 @@
                 <div class="col-md-12">
                     <img id="myimage" src="assets\images\5C0A9698_pp.JPG" class="img-fluid" alt="Erica W">
 
-                    <p>Hello everyone! Welcome to my first website. I'd love to tell you a little about myself, and my
-                        current "side
-                        hustle" - learning to code!</p>
-
-                    <p>I have an education in biology, and early in my professional career I pivoted to join
-                        a fast moving e-commerce startup. Here I was immersed in the tech industry and had a front row
-                        seat
-                        to
-                        tech innovation within retail. Working as a buyer in the consumable space,
-                        I have pretty much become an expert in soap. Welcome to my next pivot - coding class! I am now
-                        dedicating my
-                        Tuesdays, Thursdays and Saturdays, and let's be honest, every other free moment,
-                        to learning full stack web development.
+                    <p>Welcome to my portfolio site. Please navigate to my portfolio page to check out a few examples of
+                        my projects.
+                        I've included links to my LinkedIn page, and Github page below, as well.
                     </p>
 
-                    <p>Low and behold, my first official (live) website in my early web development career. I hope you
-                        enjoy
-                        it, and I
-                        welcome any feedback you have. Thank you!</p>
-                </div>
+                    <p>To tell you a bit about myself, I have an education in biology, and went on to get my Master's
+                        degree at Columbia, specifically studying
+                        bat ecology. After spending some time learning how to run a business at a science-education
+                        startup, I pivoted
+                        and joined a fast moving eCommerce startup, which was quickly acquired by one of the largest
+                        retailers in our nation.
+                        There, as a buyer, I had a front-row seat to the competitive retail tech industry, which sparked
+                        my desire to become a web developer.
+                    </p>
+                    <p>
+                        This unique mix of education and professional experience has given me the ability to think
+                        critically and approach complex problems
+                        from a variety of angles, while keeping the customer top of mind.
+                    </p>
 
-            </div>
+                    <p>I hope you enjoy my portfolio, and I
+                        welcome any feedback you have.</p>
+
+                    <p>
+                        <ul>
+                            <li>
+                                <a href="portfolio.html">Projects</a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/erica-f-walsh/">LinkedIn Profile</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ericafwalsh">Github Account</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div> -->
+
+    <!-- </div>
         </div>
-    </div>
+    </div> -->
 
 </body>
 
-<footer>Copyright &copy;</footer>
+<footer>&copy; Erica Walsh</footer>
 
 </html>
