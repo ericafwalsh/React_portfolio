@@ -4,6 +4,7 @@
 body {
     background-image: url("../images/toptal-blog-image-1501178946393-ce513b02e7d488a192ed06a88c2f2759.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 50px 20px 90px 20px;
 }
 
 p {
@@ -45,4 +46,16 @@ padding: 10px;
 
 #portRow {
     padding-top: 30px;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.card {
+    margin: 20px;
 }
